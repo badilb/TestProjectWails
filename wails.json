@@ -1,0 +1,23 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "WailsToDoList",
+  "outputfilename": "WailsToDoList",
+  "frontend": {
+    "install": "npm install",
+    "build": "npm run build",
+    "dev": {
+      "entry": "src/main.js",
+      "serverUrl": "auto"
+    }
+  },
+  "backend": {
+    "go": {
+      "main": "main.go",
+      "app": "app.go"
+    }
+  },
+  "author": {
+    "name": "badilb",
+    "email": "slovo.cz@gmail.com"
+  }
+}
